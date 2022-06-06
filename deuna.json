@@ -1,0 +1,318 @@
+{
+  "payload": {
+    "event": "order_approved",
+    "id": 50391256,
+    "number": "CCOCO23232323",
+    "item_total": "24900.0",
+    "total": "29100.0",
+    "ship_total": "4200.0",
+    "state": "complete",
+    "adjustment_total": "0.0",
+    "user_id": 43743,
+    "created_at": "2022-02-13T16:16:28.689-05:00",
+    "updated_at": "2022-02-14T15:48:23.674-05:00",
+    "completed_at": "2022-02-14T15:48:22.917-05:00",
+    "payment_total": "0.0",
+    "shipment_state": "ready",
+    "payment_state": "balance_due",
+    "email": "teslanicola_ma29@hotmail.com",
+    "special_instructions": "",
+    "channel": "d-una",
+    "included_tax_total": "0.0",
+    "additional_tax_total": "0.0",
+    "display_included_tax_total": "$ 0",
+    "display_additional_tax_total": "$ 0",
+    "tax_total": "0.0",
+    "currency": "COP",
+    "payments": [
+      {
+        "amount": "29100.0",
+        "payment_method_id": 4,
+        "payment_method": {
+          "id": 4,
+          "name": "Efectivo"
+        },
+        "card_brand": null,
+        "state": "checkout",
+        "display_amount": "$ 29.100",
+        "duna_pay_info": {
+        }
+      }
+    ],
+    "bill_address": {
+      "id": 322403,
+      "firstname": "Nicolas",
+      "lastname": "Tesla",
+      "full_name": "Nicolas Tesla",
+      "address1": "Cl. 52 ##87c-4, Bogotá, Colombia",
+      "address2": "Papeleria",
+      "city": "Bogotá",
+      "zipcode": "111111",
+      "phone": "+57 300-55555555",
+      "company": null,
+      "alternative_phone": "+57 300-55555555",
+      "country_id": 4,
+      "state_id": null,
+      "state_name": "Bogotá",
+      "state_text": "Bogotá",
+      "id_number": "1192725233",
+      "lat": "5.627904",
+      "lon": "-78.179356",
+      "country_iso_name": "COLOMBIA",
+      "country_iso": "CO",
+      "country_iso3": "COL"
+    },
+    "display_item_total": "$ 24.900",
+    "total_quantity": 1,
+    "display_total": "$ 29.100",
+    "display_ship_total": "$ 4.200",
+    "display_tax_total": "$ 0",
+    "display_adjustment_total": "$ 0",
+    "line_items": [
+      {
+        "id": 818237,
+        "quantity": 1,
+        "price": "24900.0",
+        "variant_id": 52,
+        "additional_information": "",
+        "variant": {
+          "product_id": 28,
+          "id": 52,
+          "name": "BIG BOX POP",
+          "sku": "",
+          "price": "24900.0",
+          "weight": "0.0",
+          "height": null,
+          "width": null,
+          "depth": null,
+          "is_master": true,
+          "slug": "big-box-pop-957",
+          "description": "1 Pop Corn Pequeño",
+          "track_inventory": true,
+          "cost_price": null,
+          "display_price": "$ 24.900",
+          "options_text": "",
+          "in_stock": true,
+          "is_backorderable": false,
+          "is_orderable": true,
+          "total_on_hand": 107986,
+          "is_destroyed": false,
+          "external_id": "957",
+        },
+        "parent_line_item_id": null,
+        "modifiers": [
+          {
+            "type": "¿Qué Sabor de Bebida Desea?",
+            "code": "3",
+            "value": "PEPSI"
+          }
+        ],
+        "single_display_amount": "$ 24.900",
+        "display_amount": "$ 24.900",
+        "total": "24900.0"
+      }
+    ],
+    "shipments": [
+      {
+        "id": 290426,
+        "tracking": "CCOCO23232323",
+        "number": "H61112642964",
+        "cost": "4200.0",
+        "shipped_at": null,
+        "state": "ready",
+        "shipping_rates": [
+          {
+            "id": 290483,
+            "name": "Delivery Dinamico",
+            "cost": "4200.0",
+            "selected": true,
+            "shipping_method_id": 354,
+            "shipping_method_code": "dynamic_delivery",
+            "display_cost": "$ 4.200"
+          }
+        ],
+        "selected_shipping_rate": {
+          "id": 290483,
+          "name": "Delivery Dinamico",
+          "cost": "4200.0",
+          "selected": true,
+          "shipping_method_id": 354,
+          "shipping_method_code": "dynamic_delivery",
+          "display_cost": "$ 4.200"
+        },
+        "order_id": "CCOCO23232323",
+        "stock_location_name": "BOSA"
+      }
+    ],
+    "stock_location_id": "67",
+    "store_code": "K059",
+    "store_name": "cco - BOSA",
+    "store_phone_number": "3203509848",
+    "store_latlon": {
+      "lat": "43.333333",
+      "lon": "-4.444444"
+    },
+    "id_number": "1192725233",
+    "merchant_user": "5fe6067e-0e11-4869-9118",
+    "store_url": "https://www.cco.co"
+  }
+}
+{
+  "payload": {
+    "event": "order_approved",
+    "id": 50391256,
+    "number": "CCOCO23232323",
+    "item_total": "24900.0",
+    "total": "29100.0",
+    "ship_total": "4200.0",
+    "state": "complete",
+    "adjustment_total": "0.0",
+    "user_id": 43743,
+    "created_at": "2022-02-13T16:16:28.689-05:00",
+    "updated_at": "2022-02-14T15:48:23.674-05:00",
+    "completed_at": "2022-02-14T15:48:22.917-05:00",
+    "payment_total": "0.0",
+    "shipment_state": "ready",
+    "payment_state": "balance_due",
+    "email": "teslanicola_ma29@hotmail.com",
+    "special_instructions": "",
+    "channel": "d-una",
+    "included_tax_total": "0.0",
+    "additional_tax_total": "0.0",
+    "display_included_tax_total": "$ 0",
+    "display_additional_tax_total": "$ 0",
+    "tax_total": "0.0",
+    "currency": "COP",
+    "payments": [
+      {
+        "amount": "29100.0",
+        "payment_method_id": 4,
+        "payment_method": {
+          "id": 4,
+          "name": "Efectivo"
+        },
+        "card_brand": null,
+        "state": "checkout",
+        "display_amount": "$ 29.100",
+        "duna_pay_info": {
+        }
+      }
+    ],
+    "bill_address": {
+      "id": 322403,
+      "firstname": "Nicolas",
+      "lastname": "Tesla",
+      "full_name": "Nicolas Tesla",
+      "address1": "Cl. 52 ##87c-4, Bogotá, Colombia",
+      "address2": "Papeleria",
+      "city": "Bogotá",
+      "zipcode": "111111",
+      "phone": "+57 300-55555555",
+      "company": null,
+      "alternative_phone": "+57 300-55555555",
+      "country_id": 4,
+      "state_id": null,
+      "state_name": "Bogotá",
+      "state_text": "Bogotá",
+      "id_number": "1192725233",
+      "lat": "5.627904",
+      "lon": "-78.179356",
+      "country_iso_name": "COLOMBIA",
+      "country_iso": "CO",
+      "country_iso3": "COL"
+    },
+    "display_item_total": "$ 24.900",
+    "total_quantity": 1,
+    "display_total": "$ 29.100",
+    "display_ship_total": "$ 4.200",
+    "display_tax_total": "$ 0",
+    "display_adjustment_total": "$ 0",
+    "line_items": [
+      {
+        "id": 818237,
+        "quantity": 1,
+        "price": "24900.0",
+        "variant_id": 52,
+        "additional_information": "",
+        "variant": {
+          "product_id": 28,
+          "id": 52,
+          "name": "BIG BOX POP",
+          "sku": "",
+          "price": "24900.0",
+          "weight": "0.0",
+          "height": null,
+          "width": null,
+          "depth": null,
+          "is_master": true,
+          "slug": "big-box-pop-957",
+          "description": "1 Pop Corn Pequeño",
+          "track_inventory": true,
+          "cost_price": null,
+          "display_price": "$ 24.900",
+          "options_text": "",
+          "in_stock": true,
+          "is_backorderable": false,
+          "is_orderable": true,
+          "total_on_hand": 107986,
+          "is_destroyed": false,
+          "external_id": "957",
+        },
+        "parent_line_item_id": null,
+        "modifiers": [
+          {
+            "type": "¿Qué Sabor de Bebida Desea?",
+            "code": "3",
+            "value": "PEPSI"
+          }
+        ],
+        "single_display_amount": "$ 24.900",
+        "display_amount": "$ 24.900",
+        "total": "24900.0"
+      }
+    ],
+    "shipments": [
+      {
+        "id": 290426,
+        "tracking": "CCOCO23232323",
+        "number": "H61112642964",
+        "cost": "4200.0",
+        "shipped_at": null,
+        "state": "ready",
+        "shipping_rates": [
+          {
+            "id": 290483,
+            "name": "Delivery Dinamico",
+            "cost": "4200.0",
+            "selected": true,
+            "shipping_method_id": 354,
+            "shipping_method_code": "dynamic_delivery",
+            "display_cost": "$ 4.200"
+          }
+        ],
+        "selected_shipping_rate": {
+          "id": 290483,
+          "name": "Delivery Dinamico",
+          "cost": "4200.0",
+          "selected": true,
+          "shipping_method_id": 354,
+          "shipping_method_code": "dynamic_delivery",
+          "display_cost": "$ 4.200"
+        },
+        "order_id": "CCOCO23232323",
+        "stock_location_name": "BOSA"
+      }
+    ],
+    "stock_location_id": "67",
+    "store_code": "K059",
+    "store_name": "cco - BOSA",
+    "store_phone_number": "3203509848",
+    "store_latlon": {
+      "lat": "43.333333",
+      "lon": "-4.444444"
+    },
+    "id_number": "1192725233",
+    "merchant_user": "5fe6067e-0e11-4869-9118",
+    "store_url": "https://www.cco.co"
+  }
+}
